@@ -308,11 +308,25 @@
             background: rgba(3, 117, 211, 0.05);
             border-radius: 10px;
         }
-        .back-button {
+        .github-link {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    background: #0398d3;
+    gap: 6px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 0.85rem;
+    color: white;
+    background: rgba(3, 152, 211, 0.2);
+    border: 1px solid rgb(3, 152, 211);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.github-link:hover {
+    background: rgb(3, 152, 211);
+    color: black;
+    transform: scale(1.05);
 }
 
 
@@ -639,9 +653,9 @@
             </div>
 
             <!-- GitHub Button -->
-            <a href="${project.link}" target="_blank" class="back-button" style="display:inline-block;margin-top:10px;">
-                <i class="fab fa-github"></i> View on GitHub
-            </a>
+            <a href="${project.link}" target="_blank" class="github-link">
+    <i class="fab fa-github"></i> GitHub
+</a>
         </div>
     </div>
 `).join('');
