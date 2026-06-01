@@ -568,31 +568,50 @@
             // Fungsi pembantu untuk menghasilkan kartu project
             function generateProjectCards() {
                 const projects = [
+                   
                     {
-                        title: "CraftConnetor",
-                        image: "img/Craft post.jpg",
-                        description: "A e-commerce website solution with payment integration ",
-                        link:"https://github.com/Seww2003/CraftConnector-",
-                        technologies: ["PHP", "CSS","JS", "MYSQL"]
-                        
+                        title: "AI Chatbot",
+                        image: "img/ss.PNG",
+                        description: "my own intelligent chatbot using modern AI technologies",
+                        link:"https://sewwandi-s-my-data-set.hf.space/",
+                        technologies: ["Arduino UNO", "Ultrasonic sensor ", "Moisture sensor","Servo motor"]
                     },
                     {
                         title: "BloomBuild",
                         image: "img/landscape.jpg",
                         description: "Responsive Landscaping Website with modern animations",
+                        link:"https://github.com/Seww2003/BloomBuild.git",
                         technologies: ["PHP", "CSS", "JS","MongoDB"]
                     },
                     {
                         title: "NextGen",
                         image: "img/qr.png",
                         description: "QR Attendance System",
+                        link:"https://github.com/Seww2003/QR-Attendance-.git",
                         technologies: ["Laravel", "Node.js", "Mysql"]
                     },
                     {
                         title: "Smart Duo Bin- IOT",
                         image: "img/bin.jpg",
                         description: "Automatic wet & dry waste segregation",
+                        link:"https://www.linkedin.com/posts/sewwandi-senavirathna-549a0b350_iot-arduino-wastemanagement-activity-7424127651398881281-gXq-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFe3BUkB3wdhrmFk2PUAcCrEIQXU1Gdb3n8",
                         technologies: ["Arduino UNO", "Ultrasonic sensor ", "Moisture sensor","Servo motor"]
+                    },
+                    {
+                        title: "Ongoing- Gift Shop",
+                        image: "img/.jpg",
+                        description: "A e-commerce website solution with payment integration ",
+                        link:"",
+                        technologies: ["PHP", "CSS","JS", "MYSQL"]
+                        
+                    },
+                     {
+                        title: "CraftConnetor",
+                        image: "img/Craft post.jpg",
+                        description: "A e-commerce website solution with payment integration ",
+                        link:"https://github.com/Seww2003/CraftConnector-.git",
+                        technologies: ["PHP", "CSS","JS", "MYSQL"]
+                        
                     }
                     // Add more projects as needed
                     
@@ -617,52 +636,52 @@
             }
             
 
-            // Fungsi pembantu untuk menghasilkan kartu experience
-            function generateExperienceCards() {
-                const experiences = [
-                    {
-                        title: "Senior Web Developer",
-                        company: "Tech Solutions Inc.",
-                        period: "2021 - Present",
-                        description: "Leading frontend development team and implementing modern web solutions"
-                    },
-                    {
-                        title: "Frontend Developer",
-                        company: "Digital Agency",
-                        period: "2019 - 2021",
-                        description: "Developed responsive websites and web applications"
-                    }
-                    // Add more experiences as needed
-                ];
+            // // Fungsi pembantu untuk menghasilkan kartu experience
+            // function generateExperienceCards() {
+            //     const experiences = [
+            //         {
+            //             title: "Senior Web Developer",
+            //             company: "Tech Solutions Inc.",
+            //             period: "2021 - Present",
+            //             description: "Leading frontend development team and implementing modern web solutions"
+            //         },
+            //         {
+            //             title: "Frontend Developer",
+            //             company: "Digital Agency",
+            //             period: "2019 - 2021",
+            //             description: "Developed responsive websites and web applications"
+            //         }
+            //         // Add more experiences as needed
+            //     ];
 
-                return experiences.map(exp => `
-                <div class="content-card" data-aos="fade-up">
-                    <div class="card-info">
-                        <h3>${exp.title}</h3>
-                        <h4>${exp.company}</h4>
-                        <p class="period">${exp.period}</p>
-                        <p>${exp.description}</p>
-                    </div>
-                </div>
-            `).join('');
-            }
+            //     return experiences.map(exp => `
+            //     <div class="content-card" data-aos="fade-up">
+            //         <div class="card-info">
+            //             <h3>${exp.title}</h3>
+            //             <h4>${exp.company}</h4>
+            //             <p class="period">${exp.period}</p>
+            //             <p>${exp.description}</p>
+            //         </div>
+            //     </div>
+            // `).join('');
+            // }
 
-            function generateClientCards() {
-                const clients = [
-                    {
-                        name: "Ell Udin",
-                        company: "Innovation Corp",
-                        image: "img/zoro.jpg",
-                        testimonial: "Outstanding work on our company website redesign!"
-                    },
-                    {
-                        name: "Ell Ucup",
-                        company: "Tech Startup",
-                        image: "img/zoro.jpg",
-                        testimonial: "Delivered our app ahead of schedule with excellent quality"
-                    }
-                    // Add more clients as needed
-                ];
+            // function generateClientCards() {
+            //     const clients = [
+            //         {
+            //             name: "Ell Udin",
+            //             company: "Innovation Corp",
+            //             image: "img/zoro.jpg",
+            //             testimonial: "Outstanding work on our company website redesign!"
+            //         },
+            //         {
+            //             name: "Ell Ucup",
+            //             company: "Tech Startup",
+            //             image: "img/zoro.jpg",
+            //             testimonial: "Delivered our app ahead of schedule with excellent quality"
+            //         }
+            //         // Add more clients as needed
+            //     ];
 
                 return clients.map(client => `
                 <div class="content-card" data-aos="fade-up">
